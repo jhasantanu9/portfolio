@@ -3220,6 +3220,7 @@ img.u-pull-left {
     100% {
         background-position: 0% 50%;
     }
+
 }
  .profile-container {
     display: flex;
@@ -3241,11 +3242,17 @@ h3 {
     margin: 0;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 650px) {
+    .profile-picture  {
+        height: 165px;
+    }
+}
 
 .s-intro__text {
     background: linear-gradient(to right, #4fa4b1, #70b1c9 );
     background-size: 200% 200%; /* Ensures the gradient covers more area for smooth animation */
-    animation: gradient-slide 8s ease infinite; /* Adjust the duration as needed */
+    animation: gradient-slide 5s ease infinite; /* Adjust the duration as needed */
     z-index: 2;
     width: 100%;
     text-align: center;
@@ -3270,7 +3277,7 @@ h3 {
 .s-intro__text h3 span {
     background: linear-gradient(to right, #4fa4b1,#70b1c9);
     background-size: 200% 200%; /* Ensures the gradient covers more area for smooth animation */
-    animation: gradient-slide 8s ease infinite;
+    animation: gradient-slide 5s ease infinite;
     color : var(--color-2-light);
 }
 
@@ -3286,6 +3293,7 @@ h3 {
     color            : rgb(29, 29, 30);
 
 }
+
 
 
 /* ------------------------------------------------------------------- 
