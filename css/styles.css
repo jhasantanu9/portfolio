@@ -3231,7 +3231,7 @@ img.u-pull-left {
     width: 260px; /* Size of the profile picture */
     height: 240px; /* Size of the profile picture */
     border-radius: 50%; /* Circular image */
-    margin-left: 20px; /* Space between image and text */
+    margin-left: 10px; /* Space between image and text */
     border: 0px solid #fff; /* White border around the profile picture */
     background-color: #333435; 
     /* transform: translateY(-5px);  */
@@ -3278,6 +3278,7 @@ h3 {
     color          : rgb(255, 255, 255);
     text-align: left;
     padding-left: 30px;
+    margin-right: 10px;
 }
 
 .s-intro__text h3 span {
