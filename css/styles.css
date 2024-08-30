@@ -3314,9 +3314,9 @@ h3 {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
     .s-intro__text-huge {
-        --text-huge-size : 7rem;
+        --text-huge-size : 5rem;
     }
 }
 
@@ -3354,7 +3354,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
     .s-intro__text h3 {
-        font-size : 4.6vw;
+        font-size : 1.2vw;
     }
 }
 
