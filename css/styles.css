@@ -3249,6 +3249,12 @@ h3 {
     }
 }
 
+@media (max-width: 400px) {
+    .profile-picture  {
+        height: 100px;
+    }
+}
+
 .s-intro__text {
     background: linear-gradient(to right, #4fa4b1, #70b1c9 );
     background-size: 200% 200%; /* Ensures the gradient covers more area for smooth animation */
