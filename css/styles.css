@@ -3317,12 +3317,12 @@ h3 {
 
 @media screen and (max-width: 800px) {
     .s-intro__text-huge {
-        --text-huge-size : 5rem;
+        --text-huge-size : 6rem;
     }
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .s-intro__text-huge {
         --text-huge-size : 4rem;
     }
@@ -3366,6 +3366,11 @@ h3 {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .s-intro__text h3 {
+        font-size : 1.2rem;
+    }
+}
 
 
 /* ===================================================================
